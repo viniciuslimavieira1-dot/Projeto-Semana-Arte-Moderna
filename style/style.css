@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f6f8;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1b3b5f;
+    color: #ffffff;
+    text-align: center;
+    padding: 2.5 1;
+}
+
+header h1 {
+    font-size: 2.5;
+    font-weight: 700;
+    margin-bottom: 0.5;
+}
+
+header p {
+    font-size: 1.1;
+    font-weight: 400;
+    color: #d1d8e0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2 auto;
+    padding: 0 1;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2;
+    margin-bottom: 2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+    color: #1b3b5f;
+    margin-bottom: 1;
+    font-size: 1.8;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5;
+}
+
+.card p {
+    margin-bottom: 1;
+}
+
+.card ul {
+    margin-left: 1.5;
+    margin-bottom: 1.5;
+}
+
+.card li {
+    margin-bottom: 0.5;
+}
+
+.imagem-um {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 1;
+}
+
+.imagem-dois {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5;
+    background-color: #1b3b5f;
+    color: #ffffff;
+    font-size: 0.9;
+}
